@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import App from './App.tsx';
 import './index.css';
 import WebApp from '@twa-dev/sdk';
-//test bot
 WebApp.ready();
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
